@@ -30,19 +30,19 @@
 ---
 ## TEST ALL THE THINGS... not really, but sort of
 * <i>Don't test...</i>
- * Multiple things at once (make separate tests)
- * <i>Other</i> methods while testing a method
- * Private methods (you only need to test public methods)
- * ... And test everything else
+ Multiple things at once (make separate tests)
+ <i>Other</i> methods while testing a method
+ Private methods (you only need to test public methods)
+ ... And test everything else
 
 * Test a specific, desired output for a specific, intended input
- * Unit testing
- * Like the methods they test, unit tests should be single purpose
+ Unit testing
+ Like the methods they test, unit tests should be single purpose
 
 * Test every public method...
- * ...But every public method should be performing one, specific task
- * Even if it seems unnecessary now, it might be a godsend later
- * If it seems complicated/difficult to test... consider a refactor
+ ...But every public method should be performing one, specific task
+ Even if it seems unnecessary now, it might be a godsend later
+ If it seems complicated/difficult to test... consider a refactor
 ---
 # How to test
 ---
@@ -50,9 +50,10 @@
 * NUnit (what we use)
 * xUnit
 * MSTest
- * + Built into Visual Studio
- * + Simple setup and integration
- * - Not as performant as the others
+ + Built into Visual Studio
+ + Simple setup and integration
+ - Not as performant as the others
 ---
 ## References
 * https://stackify.com/unit-test-frameworks-csharp/
+
