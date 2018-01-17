@@ -3,7 +3,7 @@
 namespace Testing_Presentation
 {
     [TestFixture]    
-    public class CalculatorTests
+    public class CalculatorTestsV1
     {
         Calculator _calculator;
 
@@ -16,13 +16,19 @@ namespace Testing_Presentation
         [TestCase]
         public void TestCalculator()
         {
-            Assert.AreEqual(4, _calculator.Add(2, 2));
+            Assert.AreEqual(_calculator.Add(2, 2), 4);
+
             _calculator.Reset();
-            Assert.AreEqual(0, _calculator.Subtract(2, 2));
+
+            Assert.AreEqual(_calculator.Subtract(2, 2), 0);
+
             _calculator.Reset();
-            Assert.AreEqual(4, _calculator.Multiply(2, 2));
+
+            Assert.AreEqual(_calculator.Multiply(2, 2), 4);
+
             _calculator.Reset();
-            Assert.AreEqual(1, _calculator.Divide(2, 2));
+
+            Assert.AreEqual(_calculator.Divide(2, 2), 1);
         }
     }
 }

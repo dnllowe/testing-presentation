@@ -4,9 +4,15 @@
     {
         private float _currentValue = 0;
 
+        public float CurrentValue
+        {
+            get { return _currentValue; }
+        }
+
         public float Add(float num1, float num2)
         {
-            return num1 + num2;
+            _currentValue = num1 + num2;
+            return _currentValue;
         }
 
         public float Add(float num)
@@ -17,7 +23,8 @@
 
         public float Divide(float num1, float num2)
         {
-            return num1 / num2;
+            _currentValue = num1 / num2;
+            return _currentValue;
         }
 
         public float Divide(float num)
@@ -28,7 +35,8 @@
 
         public float Multiply(float num1, float num2)
         {
-            return num1 * num2;
+            _currentValue = num1 * num2;
+            return _currentValue;
         }
 
         public float Multiply(float num)
@@ -39,7 +47,8 @@
 
         public float Square(float num)
         {
-            return Multiply(num, num);
+            _currentValue = Multiply(num, num);
+            return _currentValue;
         }
 
         public void Reset()
@@ -55,7 +64,8 @@
 
         public float Subtract(float num1, float num2)
         {
-            return num1 - num2;
+            _currentValue = num1 - num2;
+            return _currentValue;
         }
 
         public float Subtract(float num)
