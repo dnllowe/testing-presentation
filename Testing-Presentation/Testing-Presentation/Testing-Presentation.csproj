@@ -46,9 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="CalculatorTestsV3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CalculatorTests.cs" />
+    <Compile Include="CalculatorTestsV1.cs" />
+    <Compile Include="CalculatorTestsV2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
