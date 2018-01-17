@@ -3,7 +3,7 @@
 namespace Testing_Presentation
 {
     [TestFixture]
-    public class TestCalculatorV2
+    public class CalculatorTestsV2
     {
         Calculator _calculator;
 
