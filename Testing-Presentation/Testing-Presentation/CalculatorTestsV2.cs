@@ -13,51 +13,69 @@ namespace Testing_Presentation
             _calculator = new Calculator();
         }
 
-        [TestCase]
+        [Test]
         public void TestAdd()
         {
-            Assert.AreEqual(_calculator.Add(2, 2), 4);
+            Assert.AreEqual(55, _calculator.Add(5, 50));
         }
 
+        [Test]
         public void TestAdd2()
         {
-            Assert.AreEqual(_calculator.Add(2), 4);
+            _calculator.Reset();
+            Assert.AreEqual(50, _calculator.Add(50));
         }
 
+        [Test]
         public void TestSubtract()
         {
-            Assert.AreEqual(_calculator.Subtract(2, 2), 0);
+            Assert.AreEqual(90, _calculator.Subtract(100, 10));
         }
 
+        [Test]
         public void TestSubtract2()
         {
-            Assert.AreEqual(_calculator.Subtract(2), 0);
+            _calculator.Reset();
+            Assert.AreEqual(-10, _calculator.Subtract(10));
         }
 
+        [Test]
         public void TestMultiply()
         {
-            Assert.AreEqual(_calculator.Multiply(2, 2), 4);
+            Assert.AreEqual(30, _calculator.Multiply(5, 6));
         }
 
+        [Test]
         public void TestMultiply2()
         {
-            Assert.AreEqual(_calculator.Multiply(2), 4);
+            _calculator.Reset();
+            Assert.AreEqual(0, _calculator.Multiply(10));
         }
 
+        [Test]
         public void TestDivide()
         {
-            Assert.AreEqual(_calculator.Divide(2, 2), 1);
+            Assert.AreEqual(10, _calculator.Divide(50, 5));
         }
 
+        [Test]
         public void TestDivide2()
         {
-            Assert.AreEqual(_calculator.Divide(2), 1);
+            _calculator.Reset();
+            Assert.AreEqual(0, _calculator.Divide(10));
         }
 
+        [Test]
+        public void TestSquare()
+        {
+            Assert.AreEqual(9, _calculator.Square(3));
+        }
+
+        [Test]
         public void TestReset()
         {
             _calculator.Reset();
-            Assert.AreEqual(_calculator.CurrentValue, 0);
+            Assert.AreEqual(0, _calculator.CurrentValue);
         }
     }
 }
