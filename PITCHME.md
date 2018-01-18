@@ -1,7 +1,7 @@
 # Unit Testing and U
 ---
 Debugging Code...
-<img src=‘https://images-cdn.9gag.com/photo/aYKWzg2_700b.jpg'>
+<img src='https://images-cdn.9gag.com/photo/aYKWzg2_700b.jpg'>
 ...Doesn’t have to feel like this!
 ---
 ## Overview
@@ -24,7 +24,7 @@ Debugging Code...
 ---
 # When to test
 ---
-<img src=‘/always-be-testing-final.png’>
+<img src='/always-be-testing-final.png'>
 ---
 ## Always... Be... Testing
 
