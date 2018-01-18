@@ -1,7 +1,9 @@
 # Unit Testing and U
 ---
 Debugging Code...
+<br />
 <img src='https://images-cdn.9gag.com/photo/aYKWzg2_700b.jpg'>
+<br />
 ...Doesn’t have to feel like this!
 ---
 ## Overview
