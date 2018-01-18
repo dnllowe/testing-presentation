@@ -1,13 +1,17 @@
-# Testing
+# Unit Testing and U
+---
+Debugging Code...
+<img src=‘https://images-cdn.9gag.com/photo/aYKWzg2_700b.jpg'>
+...Doesn’t have to feel like this!
 ---
 ## Overview
 
-* Why we should test
+* Why we test
 * When to test
 * What to test
 * How to test
 ---
-# Why we should test
+# Why we test
 ---
 ## It makes your life easier
 * Confirms that your code actually works as you write it
@@ -20,7 +24,10 @@
 ---
 # When to test
 ---
+<img src=‘/always-be-testing-final.png’>
+---
 ## Always... Be... Testing
+
 * Ideally, write tests before writing code
 * Use the Red-to-Green rule
 * Use the tests to help you define the problem as manageable chunks
