@@ -45,12 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttributesTests.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="CalculatorTestsV3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CalculatorTestsV1.cs" />
     <Compile Include="CalculatorTestsV2.cs" />
+    <Compile Include="TestCasesExample.cs" />
+    <Compile Include="TimeExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -13,7 +13,7 @@ namespace Testing_Presentation
             _calculator = new Calculator();
         }
 
-        [TestCase]
+        [Test]
         public void TestCalculator()
         {
             Assert.AreEqual(_calculator.Add(2, 2), 4);
